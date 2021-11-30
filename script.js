@@ -5,6 +5,7 @@ botaoEnviar.addEventListener("click", function(event){
 
     fraseEscolhida = document.getElementById("container");
     fraseEscolhida.innerHTML = "";
+    resetes.innerHTML = "";
     let form = document.getElementById('formulario');
     let quantidade = form.quantidade.value;
 
